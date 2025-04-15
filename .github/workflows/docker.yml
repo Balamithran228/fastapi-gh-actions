@@ -29,5 +29,5 @@ jobs:
         with:
           context: .
           push: true
-          tags: ghcr.io/${{ github.repository_owner | toLower }}/{{ github.event.repository.name }}:latest
+          tags: ghcr.io/balamithran228/fastapi-gh-actions:latest
 
